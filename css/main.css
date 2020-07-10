@@ -564,9 +564,11 @@ textarea:focus {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
   .site-photo img {
-    width: 100%;
+    width: 88%;
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    margin-top: 15px;
+    margin-left: 10px; }
 
 .exp {
   height: 380px; }
@@ -931,6 +933,8 @@ textarea:focus {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     opacity: 0.5; }
+
+    
 
 .page-loader {
   position: fixed;
