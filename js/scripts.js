@@ -110,6 +110,17 @@
 		});
 
 		/*=================================
+		=            Video                =
+		=================================*/
+
+		$(document).on('show.visibility', function() {
+			$('#muse-video').get(0).play();
+		});
+		$(document).on('hide.visibility', function() {
+			$('#muse-video').get(0).pause();
+		});
+
+		/*=================================
 		=            Slideshow            =
 		=================================*/
 		function getCurSlide(elem) {
