@@ -61,6 +61,11 @@ figure {
   figure img {
     max-width: 100%;
     height: auto; }
+  figure video {
+    max-width: 100%;
+    height: auto;
+  }
+
 
 /* maitri */
 
